@@ -1,0 +1,4 @@
+yarn run v1.16.0
+$ ts-node-dev ./node_modules/typeorm/cli.js migration
+Using ts-node version 8.8.2, typescript version 3.8.3
+Deseja finalizar o arquivo em lotes (S/N)? 
