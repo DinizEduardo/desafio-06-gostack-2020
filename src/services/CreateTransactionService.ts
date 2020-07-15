@@ -38,13 +38,13 @@ class CreateTransactionService {
       await categoryRepository.save(categoryTransaction);
     }
 
-    const category_id = categoryTransaction.id;
+    const category_id = categoryTransaction;
 
     const transaction = transactionsReposiotry.create({
       title,
       value,
       type,
-      category_id,
+      category: category_id,
     });
 
     await transactionsReposiotry.save(transaction);
